@@ -1,0 +1,9 @@
+<h2>Recommends</h2>
+
+<ul class="recommends   ">
+  <li *ngFor="let recommend of recommends">
+      <span class="badge">{{recommend.id}}: </span>
+      <span class="recommendationTitle">{{recommend.name}}: </span>
+      <span>{{recommend.description}}</span>
+  </li>
+</ul>
